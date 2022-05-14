@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Aprendendo a usar o React
+          Aprendendo a usar o React e o java script dhsauuhdsahdau
           
         </a>
       </header>
