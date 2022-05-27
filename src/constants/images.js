@@ -20,6 +20,7 @@ import award05 from "../assets/award05.png";
 import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import japanlogo from "../assets/japanlogo.png";
+import hashi from "../assets/hashi.png"
 
 export default {
   bg,
@@ -44,4 +45,5 @@ export default {
   sign,
   quote,
   japanlogo,
+  hashi
 };
