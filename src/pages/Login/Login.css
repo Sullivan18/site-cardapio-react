@@ -1,0 +1,42 @@
+.app__login{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.app__login-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 60px;
+    font-size: 70px;
+    margin: 110px 0;
+
+}
+
+.app__login-form{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    padding: 8px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 5px;
+
+}
+
+.app__button{
+    margin: 20px;
+    margin-left: 120px;
+    font-size: 30px;
+    
+}
+
+.app__login-campo{
+
+}
