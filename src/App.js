@@ -10,7 +10,9 @@ import Routes from "./Routes"
 
 
 const App = () => (
-    <ComLogin />
+    <div>
+        <ComLogin />
+    </div>
 
 
 );
