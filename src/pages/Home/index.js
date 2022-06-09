@@ -11,7 +11,7 @@ import {
 import { Navbar } from "../../components";
 import "../../App.css";
 
-function Main() {
+function Index() {
     return (
         <div>
             <Navbar />
@@ -26,4 +26,4 @@ function Main() {
     );
 };
 
-export default Main;
+export default Index;

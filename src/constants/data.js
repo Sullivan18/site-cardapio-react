@@ -1,82 +1,62 @@
-import images from './images';
 
-const wines = [
+
+const sushis = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Sushi simples (14 peças)',
+    price: 'R$32,50',
+    tags: 'Niguiri (10 un), Hossomaki (2 un), Uramaki (2 un).',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Sushi especial (20 peças)',
+    price: 'R$39,00',
+    tags: 'Niguiri (12 un), Hossomaki (4 un), Uramaki (4 un).',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Sushi extra (28 peças)',
+    price: 'R$49,00',
+    tags: 'Niguiri (16 un), Hossomaki (6 un), Uramaki (6 un).',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Kanikama',
+    price: 'R$13,00',
+    tags: 'Caranguejo, pepino e gergelim.',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Negui Sake',
+    price: 'R$14,00',
+    tags: 'Salmão, cebolinha, maionese ou cream cheese.',
   },
 ];
 
-const cocktails = [
+const porçoes = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'hot roll',
+    price: 'R$19,80',
+    tags: 'Salmão e cebolinha com maionese ou cream cheese.',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Salmão (20 peças)',
+    price: 'R$39,80',
+    tags: 'Salmão (6 fat), niguirisushi (6 un), Hossomaki (8 un).',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: "mini (20 peças)",
+    price: 'R$39,80',
+    tags: 'Sashimi (8 fat), Niguirisushi (4 un), Hossomaki (4 un), Uramaki (4un).',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'simples (32 peças)',
+    price: 'R$69,00',
+    tags: 'Sashimi (16 fat), Niguirisushi (4 un), Hossomaki (8 un), Uramaki (4un).',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'kazoku (58 peças)',
+    price: 'R$125,00',
+    tags: 'Sashimi (28 fat), Niguiri (10 un), Hosso (8 un), hot roll (8 un).',
   },
+
 ];
 
-const awards = [
-  {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-];
 
-export default { wines, cocktails, awards };
+
+export default { sushis, porçoes };

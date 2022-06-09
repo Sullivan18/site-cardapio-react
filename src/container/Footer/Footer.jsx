@@ -22,7 +22,7 @@ const Footer = () => (
         <img src={images.japanlogo} alt="footer_logo" />
 
         <p className="p__opensans">
-          "O sabor da vida depende de quem tempera.""{" "}
+          "O sabor da vida depende de quem tempera."{" "}
         </p>
         <img
           src={images.spoon}

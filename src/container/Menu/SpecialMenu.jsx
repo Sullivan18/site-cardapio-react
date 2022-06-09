@@ -6,38 +6,37 @@ import "./SpecialMenu.css";
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section_padding" id="menu">
     <div className="app__specialMenu-title">
-      <SubHeading title="Menu that fits your palette" />
-      <h1 className="headtext__cormorant">Today's special</h1>
+      <SubHeading title="Menu que se adapta à sua paleta" />
+      <h1 className="headtext__cormorant">Especial de hoje</h1>
     </div>
 
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine flex__center">
-        <p className="app__specialMenu-menu_heading">Wine and Beer</p>
+        <p className="app__specialMenu-menu_heading">Sushi's</p>
         <div className="app__specialMenu_menu_items">
-          {data.wines.map((wine, index) => (
+          {data.sushis.map((sushi, index) => (
             <MenuItem
-              key={wine.title + index}
-              title={wine.title}
-              price={wine.price}
-              tags={wine.tags}
+              key={sushi.title + index}
+              title={sushi.title}
+              price={sushi.price}
+              tags={sushi.tags}
             />
           ))}
-          
         </div>
       </div>
       <div className="app__specialMenu-menu_img">
-        <img src={images.menu} alt="menu img" />
+        <img src={images.menu2} alt="menu img" />
       </div>
 
       <div className="app__specialMenu-menu_cocktails flex__center">
-        <p className="app__specialMenu-menu_heading">Cocktails</p>
+        <p className="app__specialMenu-menu_heading">Porções</p>
         <div className="app__specialMenu_menu_items">
-          {data.cocktails.map((cocktail, index) => (
+          {data.porçoes.map((porçao, index) => (
             <MenuItem
-              key={cocktail.title + index}
-              title={cocktail.title}
-              price={cocktail.price}
-              tags={cocktail.tags}
+              key={porçao.title + index}
+              title={porçao.title}
+              price={porçao.price}
+              tags={porçao.tags}
             />
           ))}
         </div>

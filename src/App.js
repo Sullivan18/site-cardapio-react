@@ -3,18 +3,18 @@ import ComCriaOpcoes from "./components/ComCriaOpcoes";
 import ComEditaOpcoes from "./components/ComEditaOpcoes";
 import ComPegaMenu from "./components/ComPegaMenu";
 import { ComLogin } from "./pages/Login/ComLogin";
-import { BrowserRouter } from 'react-router-dom';
-import Main from "./pages/Home/index";
-import Routes from "./Routes"
+import { Link } from 'react-router-dom';
+import Index from "./pages/Home/index";
 
 
 
-const App = () => (
-    <div>
-        <ComLogin />
-    </div>
+
+export default function App() {
+    return (
+        <Index />
+    );
+}
 
 
-);
 
-export default App;
+

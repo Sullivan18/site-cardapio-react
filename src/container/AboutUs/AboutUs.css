@@ -7,9 +7,9 @@
   inset: 0;
 }
 
-.aoo__aboutus-overlay img {
-  width: 391px;
-  height: 415px;
+.app__aboutus-overlay img {
+  width: 1000px;
+  height: 1000px;
   z-index: 0;
 }
 
